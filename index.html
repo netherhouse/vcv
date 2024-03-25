@@ -12,54 +12,198 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/history.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <!-- header test -->
-    <header class="header" id="header">
-      <div class="navbar">
-        <div><a href="#" class="logo">Versche</a></div>
-        <ul class="links">
-          <li><a href="history.html">История концертов</a></li>
-          <li><a href="about">О нас</a></li>
-          <li><a href="events">Aфиша</a></li>
-          <li><a href="contacts">Контакты</a></li>
-        </ul>
-        <a href="#" class="action__btn__language">Ru</a>
-        <div class="toggle__btn">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-      </div>
-      <div class="dropdown__menu">
-        <li><a href="history">История концертов</a></li>
-        <li><a href="about">О нас</a></li>
-        <li><a href="events">Офиша</a></li>
-        <li><a href="contacts">Контакты</a></li>
-        <li><a href="#" class="action__btn__language">Ru</a></li>
-      </div>
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <figure class="header__box header__box--logo">
+          <img src="icons/vcv-logo.png" alt="vcv logo" class="logo" />
+        </figure>
 
-      <div class="main__header">
-        <div class="info">
-          <h1>Верше<br />украинский народный хор</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ea
-            doloribus repudiandae quibusdam voluptates non eum perferendis aut.
-          </p>
-          <button class="button__Main__Header">Contacts Me</button>
-        </div>
-        <img class="img__Main__Header" src="icons/ver_fon.JPEG" />
+        <input type="checkbox" id="nav_check" hidden />
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active">Главная</a>
+            </li>
+            <li class="nav__item">
+              <a href="history.html" class="nav__link">История концертов</a>
+            </li>
+            <li class="nav__item">
+              <a href="About_us.html" class="nav__link">О нас</a>
+            </li>
+            <li class="nav__item">
+              <a href="events.html" class="nav__link">Aфиша</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Споем вместе</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Репертуар</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <label for="nav_check" class="dropdown">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
       </div>
     </header>
+    <img src="/icons/header1.JPG" class="header__Foto" />
+
+    <div class="main__header">
+      <div class="info">
+        <h1>
+          Добро пожаловать на страницу хора
+          <span class="Vershe__h1">"VERSHE"</span>
+        </h1>
+
+        <p>
+          Наша миссия - показать красоту украинской народной песни в Германии и
+          Европе. Познакомить европейскую аудиторию с богатой, прекрасной, яркой
+          музыкальной украинской культурой и украинскими традициями. А также
+          создавать новые культурные дружеские отношения с немецкими
+          коллективами. Показывая, как по-новому может звучать немецкая песня,
+          исполненная украинскими голосами.
+        </p>
+        <button class="button__Main__Header">Contacts Me</button>
+      </div>
+      <img class="img__Main__Header" src="icons/ver_fon.JPEG" />
+    </div>
 
     <!-- main -->
     <main class="main">
-      <!-- history -->
-      <section class="history section" id="history"></section>
-      <!-- about -->
-      <section class="about section" id="about"></section>
       <!-- events -->
-      <section class="events section" id="events"></section>
+      <section class="events_section" id="events">
+        <div class="content">
+          <h2 class="events__title">Анонс</h2>
+        </div>
+      </section>
+      <!-- history -->
+      <section class="history__section" id="history">
+        <h1 class="h1__History">История концертов</h1>
+        <div class="content__content">
+          <div class="content-wrapper">
+            <div class="content">
+              <div class="content__box content__box--main">
+                <div class="blog-container">
+                  <div class="blog-box">
+                    <div class="blog-box--inner">
+                      <div class="blog-img">
+                        <div class="blog-info">
+                          <span class="blog-title1">песня "Степом"</span>
+                          <span class="blog-data">20.08.2023</span>
+                        </div>
+                        <img src="icons/about2.png" alt="blog" />
+                      </div>
+
+                      <div class="blog-text">
+                        <span>20.08.2023</span>
+                        <a href="#" class="blog-title"
+                          >Украинский народный хор - "Верше" , песня "Степом"</a
+                        >
+                        <p>
+                          Руководитель и дирижер украинского народного хора
+                          "Верше" - Лащинский Виктор. Песня "Степом" - слова -
+                          Микола Негода, музыка - Анатолий Пашкевич, солистка -
+                          Завгородняя Неля. Аккомпаниаторы: - баян - Александр -
+                          бандура - Марина Ляшенко Haus der Kulturen Düsseldorf,
+                          при поддержке KIN-TOP.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=tyNzBiafM_o"
+                          >Youtube video</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-box">
+                    <div class="blog-box--inner">
+                      <div class="blog-img">
+                        <div class="blog-info">
+                          <span class="blog-title1">микс выступления</span>
+                          <span class="blog-data">01.09.2023</span>
+                        </div>
+                        <img src="icons/History1.png" alt="blog" />
+                      </div>
+
+                      <div class="blog-text">
+                        <span>01.09.2023</span>
+                        <a href="#" class="blog-title"
+                          >Украинский народный хор - "Верше", микс
+                          выступления</a
+                        >
+                        <p>
+                          Керівник і диригент українського народного хору
+                          "Верше" - Лащинський Віктор. Репертуар: - "Зелене
+                          жито", українська народна пісня. - "Ніч яка місячна",
+                          українська народна пісня. - "Степом", сл. Микола
+                          Негода, муз. Анатолій Пашкевич, солістка - Завгородня
+                          Неля. - "Ой на горі два дубки", українська народна
+                          пісня. - "Верше", українська народна пісня, солістка -
+                          Оксана Микитюк. - "Rot, rot sind die Rosen", німецька
+                          пісня. - "Ти ж мене підманула", українська народна
+                          пісня. - "Ой, як орали хлопці на льон", українська
+                          народна пісня. Keiser Museum Krefeld.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=sbj2EnoTX_o"
+                          >Youtube video</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="blog-box">
+                    <div class="blog-box--inner">
+                      <div class="blog-img">
+                        <div class="blog-info">
+                          <span class="blog-title1">
+                            Klassiek op het Amstelveld</span
+                          >
+                          <span class="blog-data">16.09.2023</span>
+                        </div>
+                        <img src="icons/img3.jpg" alt="blog" />
+                      </div>
+
+                      <div class="blog-text">
+                        <span>16.09.2023</span>
+                        <a href="#" class="blog-title">
+                          Украинский народный хор "Верше", песня "Два кольори",
+                          Klassiek op het Amstelveld</a
+                        >
+                        <p>
+                          Руководитель и дирижер украинского народного хора
+                          "Верше" - Лащинский Виктор. Песня "Два кольори", слова
+                          - Дмитро Павличко, музыка - Александр Билаш, солистка
+                          - Юлия Толочко. Аккомпаниаторы: - баян - Александр -
+                          бандура - Марина Ляшенко Приглашение на фестиваль -
+                          Tatiana Chevtchiuk, Direktor Klassiek op het
+                          Amstelveld
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=Lga_zBczoZA"
+                          >Youtube video</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about_section" id="about">
+        <h1 class="about_content">История хора</h1>
+      </section>
       <!-- contacts -->
-      <section class="contacts section" id="contacts"></section>
+      <section class="contacts_section" id="contacts"></section>
     </main>
     <footer class="footer">
       <div class="footer__container">
@@ -67,10 +211,13 @@
           <div class="footer__col">
             <h4>company</h4>
             <ul>
-              <li><a href="#">about us</a></li>
-              <li><a href="#">bla bla</a></li>
-              <li><a href="#">privacy policy</a></li>
-              <li><a href="#">affiliate program</a></li>
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="history.html">История концертов</a></li>
+              <li><a href="About_us.html">О нас</a></li>
+              <li><a href="events.html">Aфиша</a></li>
+              <li><a href="#">Споем вместе</a></li>
+              <li><a href="#">Репертуар</a></li>
+              <li><a href="#">Контакты</a></li>
             </ul>
           </div>
           <div class="footer__col">

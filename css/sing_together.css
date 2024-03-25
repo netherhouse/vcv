@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Six Caps", sans-serif;
+}
+
+body {
+  background: rgb(243, 248, 239);
+}
+.main__foto {
+  padding: 5px 20px;
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+.wrapper {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+.h__event--box {
+  display: flex;
+  position: relative;
+}
+.line__header {
+  width: 100%;
+  content: "";
+  background-image: url("/icons/sep1.png");
+  width: 100%;
+  margin: 35px 5px;
+  height: 60px;
+}
+.title__event {
+  font-style: italic;
+  font-size: 2.2em;
+  font-weight: normal;
+  color: #b60000;
+  text-transform: uppercase;
+  /* border-bottom: 2px solid; */
+  margin: 1em 0;
+}
+.text-block__heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.text-block__paragraph {
+  margin-bottom: 10px;
+}
+
+.text-block__mission {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-block__director {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.text-block__director-info {
+  margin-bottom: 10px;
+}
+
+.text-block__talents,
+.text-block__offer,
+.text-block__expectation {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-block__list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.text-block__list-item {
+  margin-bottom: 5px;
+}
+
+.text-block__contact {
+  margin-bottom: 10px;
+}
+
+.text-block__link {
+  text-decoration: none;
+  color: blue;
+}
+
+.text-block__highlight {
+  font-weight: bold;
+  color: red;
+}
+.contact-button {
+  background-color: #aed1a9;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact-button:hover {
+  background-color: #0f453b;
+  color: white;
+}
