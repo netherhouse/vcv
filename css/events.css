@@ -21,14 +21,7 @@ body {
   display: flex;
   position: relative;
 }
-.line__header {
-  width: 100%;
-  content: "";
-  background-image: url("/icons/sep1.png");
-  width: 100%;
-  margin: 25px 5px;
-  height: 60px;
-}
+
 .img__h--event {
   background-repeat: repeat-x;
   background-size: contain;
@@ -44,42 +37,11 @@ body {
 }
 .content__event {
   display: flex;
-  gap: 4em;
+  gap: 3em;
   margin-bottom: 1em;
   background: #b5cfb352;
 }
-.box__events {
-  margin-top: 0.5em;
-}
-.link__event {
-  color: #b60000;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.date__box--event {
-  display: inline-block;
-  width: 7em;
-  height: 7em;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.2;
-  color: #fff;
-  padding-top: 1em;
-  background: #3c3c3c;
-}
-.day__event {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2.5em;
-}
-.month__event {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-.name__event--h2 {
-  margin-bottom: 0;
-  padding-top: 5px;
-}
+
 .info {
   font-weight: bold;
   margin-top: 0.2em;
@@ -94,7 +56,6 @@ body {
   margin-top: 20px;
 }
 .foto__event {
-  margin-top: 0.5em;
   border-right: 1px black solid;
   border-left: 1px black solid;
 }
@@ -102,7 +63,7 @@ figure {
   margin: 0;
 }
 .image__event {
-  width: 350px;
-  height: 200px;
+  width: 300px;
+  height: 350px;
   object-fit: contain;
 }
